@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debugging Example</title>
+
+    <style>
+        h1 {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 id="heading">Welcome</h1>
+
+    <button onclick="changeText()">Click Me</button>
+
+    <script>
+        let count = 0;
+
+        function changeText() {
+            count++;
+            console.log("Button clicked", count);
+
+            document.getElementById("heading").innerHTML =
+                "Clicked " + count + " times";
+        }
+    </script>
+
+</body>
+</html>

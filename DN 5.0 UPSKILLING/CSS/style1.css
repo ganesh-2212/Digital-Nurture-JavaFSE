@@ -1,0 +1,17 @@
+/* Header Styles */
+h2 {
+    color: blue;
+    text-align: center;
+}
+
+/* Paragraph Styles */
+p {
+    font-size: 18px;
+    color: black;
+}
+
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
